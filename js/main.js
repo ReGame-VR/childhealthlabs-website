@@ -37,12 +37,6 @@ $(document).ready(function() {
         return false;
      });
 
-  // Filterable/sortable gallery
-  var $container = $('.sortable-grid').imagesLoaded( function() {
-    $container.isotope({
-      itemSelector: '.grid-item'
-    });
-  });
 
   $('.filter-controls a').click(function(e){
     $(this).addClass("selected");
