@@ -139,7 +139,8 @@ textarea {
 
 input[type=tel], input[type=url], input[type=password], input[type=text], input[type=email], input[type=reset], input[type=button], input[type=submit], button, textarea{
      -webkit-appearance: none;
-     -webkit-border-radius: 0;
+	 -webkit-border-radius: 0;
+	 border-radius: 0;
 }
 
 
