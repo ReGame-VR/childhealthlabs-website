@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Arvo;
+    font-family: MyFont;
     src: url("./arvo.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -154,7 +154,7 @@ input[type=tel], input[type=url], input[type=password], input[type=text], input[
 /* Normalized Styles
 ------------------------------------------------------------------------------*/
 body {
-	font-family: 'Arvo', serif;
+	font-family: 'MyFont', serif;
 	font-size: 15px;
 	color: #9e9994;
 	background: #fffbf7;
@@ -163,7 +163,7 @@ body {
 
 input, textarea, select, button {
 	outline: none;
-	font-family: 'Arvo', serif;
+	font-family: 'MyFont', serif;
 }
 
 a, a:visited, a:focus, a:active {
@@ -598,7 +598,7 @@ input.white[type=submit]:hover{
 .event-calendar .event-tooltip{
 	width: 388px;
 	padding: 15px 18px;
-	font-family: 'Arvo', serif;
+	font-family: 'MyFont', serif;
 	font-size: 13px;
 	color: #4e87a0;
 	text-align: left;
