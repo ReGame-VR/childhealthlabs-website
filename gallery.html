@@ -11,6 +11,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Gochi+Hand|Arvo:400,700' rel='stylesheet' type='text/css'>
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="./js/filter.js"></script>\
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -23,93 +24,37 @@
 			<div class="dvdr"></div>
 			<div class="container">
 				<section id="main">
-					<h1>Browse our photo gallery. You can find here our kids and photos from events, parties and meetings</h1>
+					<h1 style="text-align: center">Browse our photo gallery. You can find here our kids and photos from events, parties and meetings</h1>
 					<div class="tabs">
 						<ul class="filter-controls">
-							<li><a href="#" data-filter="*" data-currently-viewing="all" class="selected">Show All</a></li>
-							<li><a href="#" data-filter=".kids">Kids</a></li>
-							<li><a href="#" data-filter=".meeting">Meetings</a></li>
-							<li><a href="#" data-filter=".parties">Parties</a></li>
-							<li><a href="#" data-filter=".print">Print</a></li>
+							<li><a onclick="filterSelection('all')" data-filter="*" data-currently-viewing="all" class="selected">Show All</a></li>
+							<li><a onclick="filterSelection('regame')">ReGame</a></li>
+							<li><a onclick="filterSelection('smile')">Smile</a></li>
+							<li><a onclick="filterSelection('snl')">SNL</a></li>
 						</ul>
 					</div>
 					
 					<ul class="slider sortable-grid">
 						<li>
 							<ul>
-							<li class="grid-item parties">
-								<a href="#"><img src="images/img-person01.jpg" alt="" />
+							<li class="grid-item regame">
+								<img src="images/gallery/regame1.jpg" alt="" />
 								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids01.jpg" alt="" />
+							<li class="grid-item regame">
+								<img src="images/gallery/regame2.jpg" alt="" />
 								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids02.jpg" alt="" />
+							<li class="grid-item smile">
+								<img src="images/gallery/smile1.jpg" alt="" />
 								<div class="mask"></div></a>
-							<li class="grid-item parties">
-								<a href="#"><img src="images/img-parties02.jpg" alt="" />
+							<li class="grid-item smile">
+								<img src="images/gallery/smile2.jpg" alt="" />
 								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids03.jpg" alt="" />
+							<li class="grid-item snl">
+								<img src="images/gallery/snl1.jpg" alt="" />
 								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids04.jpg" alt="" />
+							<li class="grid-item snl">
+								<img src="images/gallery/snl2.jpg" alt="" />
 								<div class="mask"></div></a>
-							<li class="grid-item meeting">
-								<a href="#"><img src="images/img-meeting01.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids05.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item meeting">
-								<a href="#"><img src="images/img-meeting02.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item parties print">
-								<a href="#"><img src="images/img-parties03.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item meeting">
-								<a href="#"><img src="images/img-meeting03.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item meeting">
-								<a href="#"><img src="images/img-meeting04.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids05.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item meeting">
-								<a href="#"><img src="images/img-meeting02.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item parties">
-								<a href="#"><img src="images/img-parties03.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item parties">
-								<a href="#"><img src="images/img-parties02.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item meeting">
-								<a href="#"><img src="images/img-meeting01.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item meeting print">
-								<a href="#"><img src="images/img-meeting03.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids03.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids04.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item meeting print">
-								<a href="#"><img src="images/img-meeting04.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item parties print">
-								<a href="#"><img src="images/img-person01.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids">
-								<a href="#"><img src="images/img-kids01.jpg" alt="" />
-								<div class="mask"></div></a>
-							<li class="grid-item kids print">
-								<a href="#"><img src="images/img-kids02.jpg" alt="" />
-								<div class="mask"></div></a>
-						</li>
 					</ul>
 				</section>
 			</div>

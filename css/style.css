@@ -915,7 +915,7 @@ input.white[type=submit]:hover{
 }
 .gallery .slider ul li  img{
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 /* Sidebar
