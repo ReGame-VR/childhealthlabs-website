@@ -349,11 +349,22 @@ input.white[type=submit]:hover{
 	left: 0;
 }
 .slide-info {
-	width: 80%;
+	width: 50%;
 	position: absolute;
-	top: 125px;
-	left: 10%;
+	top: 80px;
+	left: 40%;
 }
+
+.slide-images {
+	width: 30%;
+	position: absolute;
+	top: 80px;
+	left: 8%;
+	height: 70%;
+	overflow: hidden;
+	border-radius: 100px;
+}
+
 .slide-info p {
 	padding: 20px 0 30px;
 	line-height: 30px;
