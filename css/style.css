@@ -437,14 +437,41 @@ input.white[type=submit]:hover{
 	font-family: 'Gochi Hand', cursive;
 	font-size: 36px;
 }
-.widget-boxes .about {
-	background: url(../images/ico_info1.png) no-repeat 50% 0;
+.widget-boxes .regame {
+	background: url(../images/logo/ReGame_logo.png) no-repeat 50% 0;
+	background-size: 150px 150px;
 }
-.widget-boxes .experience {
-	background: url(../images/ico_info2.png) no-repeat 50% 0;
-}
-.widget-boxes .fun {
+.widget-boxes .cbhlab {
 	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background-size: 150px 150px;
+}
+.widget-boxes .smile {
+	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background-size: 150px 150px;
+}
+.widget-boxes .snl {
+	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background-size: 150px 150px;
+}
+.widget-boxes .cad {
+	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background-size: 150px 150px;
+}
+.widget-boxes .htl {
+	background: url(../images/logo/HTL_logo.jpg) no-repeat 50% 0;
+	background-size: 150px 150px;
+}
+.widget-boxes .cbsl {
+	background: url(../images/logo/CBSL_logo.png) no-repeat 50% 0;
+	background-size: 300px 150px;
+}
+.widget-boxes .projectplay {
+	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background-size: 150px 150px;
+}
+.widget-boxes .cdl {
+	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background-size: 150px 150px;
 }
 .widget-boxes .about h2{
 	color: #bfd04e;
@@ -1573,18 +1600,6 @@ input.white[type=submit]:hover{
 	a.yellow {
 		background: url(../images/bg_yellow-btn-x2.png) no-repeat;
 		background-size: 140px 52px;
-	}
-	.widget-boxes .about {
-		background: url(../images/ico_info1-x2.png) no-repeat 50% 0;
-		background-size: 240px 133px;
-	}
-	.widget-boxes .experience {
-		background: url(../images/ico_info2-x2.png) no-repeat 50% 0;
-		background-size: 132px 136px;
-	}
-	.widget-boxes .fun {
-		background: url(../images/ico_info3-x2.png) no-repeat 50% 0;
-		background-size: 137px 132px;
 	}
 	.event-description .metadata time {
 		background: url(../images/ico_date-pink-x2.png) no-repeat 0 0;

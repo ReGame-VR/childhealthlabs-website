@@ -1,4 +1,5 @@
-var all_files = ["regame1.jpg", "regame3.jpg", "smile1.jpg", "smile2.jpg", "snl1.jpg", "snl2.jpg"]
+var all_files = ["regame1.jpg", "regame3.jpg", "smile1.jpg", "smile2.jpg", "snl1.jpg", "snl2.jpg", "CBSL.jpg", 
+"htl1.jpg", "htl2.jpg", "htl3.jpg"]
 var base_url = "images/gallery/"
 
 function show_next_photo() {
