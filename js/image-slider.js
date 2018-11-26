@@ -1,6 +1,9 @@
-var all_files = ["regame1.jpg", "regame3.jpg", "smile1.jpg", "smile2.jpg", "snl1.jpg", "snl2.jpg", "CBSL.jpg", 
+var all_files = ["regame1.jpg", "regame3.jpg", "smile1.jpg", "smile2.jpg", "snl1.jpg", 
+"snl2.jpg", "CBSL.jpg", "cad1.jpg", "ccbh1.jpg", "ccbh2.jpg", 
 "htl1.jpg", "htl2.jpg", "htl3.jpg"]
 var base_url = "images/gallery/"
+
+all_files = shuffle(all_files);
 
 function show_next_photo() {
     var to_display = all_files.shift();
@@ -44,3 +47,23 @@ function get_next_image(to_display) {
 }
 
 show_next_photo();
+
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+  
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+  
+    return array;
+  }
+  
