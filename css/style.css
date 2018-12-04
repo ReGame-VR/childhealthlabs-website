@@ -442,7 +442,7 @@ input.white[type=submit]:hover{
 	background-size: 150px 150px;
 }
 .widget-boxes .cbhlab {
-	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background: url(../images/gallery/ccbh1.jpg) no-repeat 50% 0;
 	background-size: 150px 150px;
 }
 .widget-boxes .smile {
@@ -450,11 +450,11 @@ input.white[type=submit]:hover{
 	background-size: 150px 150px;
 }
 .widget-boxes .snl {
-	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background: url(../images/gallery/snl1.jpg) no-repeat 50% 0;
 	background-size: 150px 150px;
 }
 .widget-boxes .cad {
-	background: url(../images/ico_info3.png) no-repeat 50% 0;
+	background: url(../images/gallery/cad1.JPG) no-repeat 50% 0;
 	background-size: 150px 150px;
 }
 .widget-boxes .htl {
@@ -466,10 +466,6 @@ input.white[type=submit]:hover{
 	background-size: 300px 150px;
 }
 .widget-boxes .projectplay {
-	background: url(../images/ico_info3.png) no-repeat 50% 0;
-	background-size: 150px 150px;
-}
-.widget-boxes .cdl {
 	background: url(../images/ico_info3.png) no-repeat 50% 0;
 	background-size: 150px 150px;
 }
