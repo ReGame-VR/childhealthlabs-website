@@ -1,6 +1,8 @@
 var all_files = ["regame1.jpg", "regame3.jpg", "smile1.jpg", "smile2.jpg", "snl1.jpg", 
 "snl2.jpg", "CBSL.jpg", "cad1.jpg", "ccbh1.jpg", "ccbh2.jpg", 
-"htl1.jpg", "htl2.jpg", "htl3.jpg"]
+"htl1.jpg", "htl2.jpg", "htl3.jpg", "new1.JPG", "new2.JPG", "new3.JPG",
+"new4.JPG", "new5.JPG", "new6.JPG", "new7.JPG", "new8.JPG", "new9.JPG", "new10.JPG",
+"new11.JPG", "new12.jpg", "new13.jpg"]
 var base_url = "images/gallery/"
 
 all_files = shuffle(all_files);
