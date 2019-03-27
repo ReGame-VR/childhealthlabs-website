@@ -1,6 +1,6 @@
 document.getElementById('header').innerHTML = `
 <div class="left-part"></div>
-    <a id="logo" href="index.html">NUCHL</a>
+    <a id="logo" href="index.html"></a>
     <div class="bar-holder">
     <a class="menu_trigger" href="#">menu</a>
     <nav id="nav">
