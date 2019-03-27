@@ -32,7 +32,7 @@ document.getElementById("footer").innerHTML = `
         </div>
         <div class="footer-bottom">
             <div class="holder">
-                <p>Copyright 2014 Kid’ school. All rights reserved.</p>
+                <p>Copyright 2014 Kid' school. All rights reserved.</p>
             </div>
         </div>
     </div>
