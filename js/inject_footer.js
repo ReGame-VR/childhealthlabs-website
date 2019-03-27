@@ -6,7 +6,7 @@ document.getElementById("footer").innerHTML = `
                 <div class="col_wrap">
                     <div class="col">
                         <h3>Our address</h3>
-                        <address class="map">30 Leon St, Boston, MA 02115</address>
+                        <address class="map">360 Huntington Ave, Boston, MA 02115</address>
                         <address class="mail"><a href="mailto:regamevrlab@neu.edu">regamevrlab@neu.edu</a></address>
                         <address class="phone"><a href="tel:617-373-6107">617-373-6107</a></address>
                     </div>
