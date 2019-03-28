@@ -14,7 +14,7 @@ document.getElementById("footer").innerHTML = `
                 <div id="googleMap" class="col_wrap">
                     <h3>Directions</h3>
                     <div class="mapouter">
-                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=30%20Leon%20St%2C%20Boston%2C%20MA%2002115&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=360%20Huntington%20Ave%2C%20Boston%2C%20MA%2002115&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div>
                         <style>.mapouter{text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}</style>
                     </div>
