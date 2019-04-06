@@ -276,6 +276,7 @@ input.white[type=submit]:hover{
 	top: 28px;
 	left: 50%;
 	background: url(../images/logo.png) no-repeat;
+	background-size: contain;
 }
 #logo:hover {
 	text-decoration: none;
@@ -464,6 +465,7 @@ input.white[type=submit]:hover{
 .widget-boxes .cbsl {
 	background: url(../images/logo/CBSL_logo.png) no-repeat 50% 0;
 	background-size: 300px 150px;
+	background-position-x: 125px;
 }
 .widget-boxes .projectplay {
 	background: url(../images/ico_info3.png) no-repeat 50% 0;
@@ -948,16 +950,20 @@ input.white[type=submit]:hover{
 }
 .gallery .slider ul {
 	text-align: center;
+	vertical-align: middle;
 }
 .gallery .slider ul li {
 	display: inline-block;
 	width: 270px;
 	height: 274px;
 	margin: 15px;
+	overflow: hidden;
+	text-align: center
 }
 .gallery .slider ul li  img{
-	width: 100%;
-	height: 100%;
+	width: auto;
+	max-height: 100%;
+	margin: auto;
 }
 
 /* Sidebar

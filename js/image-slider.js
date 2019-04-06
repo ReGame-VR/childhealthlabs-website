@@ -44,7 +44,7 @@ function get_next_image(to_display) {
     var inject = document.createElement("img")
     inject.src = base_url + to_display;
     inject.alt = ""
-    inject.style = "width:100%; height:100%; position:absolute; left:0%;"
+    inject.style = "max-width:100%; height:auto; position:absolute; left:0%; overflow: hidden"
     return inject
 }
 
